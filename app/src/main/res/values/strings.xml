@@ -2,4 +2,11 @@
     <string name="app_name">About Me</string>
     <string name="name">Anel Calvo</string>
     <string name="yellow_star">YelloStar</string>
+    <string name="bio">Hi, my name is Anel
+        \n\nIm a Android Developer who works to build apps.
+        \n\nIm always trying to learn new things.
+        \n\nIm always trying to learn new experiences.
+        \n\nI has the opportunity to collaborated for large companies and developed different applications in different areas.
+        \n\nI holds a bachelors degree in Computer Science from Instituto Tecnologico de Zacatepec
+        \n\nI enjoys spending time with friends, meeting new places and people, also loves to travel and some of her favorite hobby is playing guitar and playing video games.  </string>
 </resources>
