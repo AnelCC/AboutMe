@@ -35,6 +35,21 @@
         android:hint="@string/what_is_your_nickname"
         android:inputType="textMultiLine|textPersonName" />
 
+    <Button
+        android:id="@+id/done_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/roboto"
+        android:layout_height="wrap_content"
+        android:text="@string/done" />
+
+    <TextView
+        android:id="@+id/nickname_text"
+        style="@style/NameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
