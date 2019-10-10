@@ -18,14 +18,6 @@
         android:text="@string/name"
         android:textAlignment="center" />
 
-    <ImageView
-        android:id="@+id/star_image"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/layout_margin"
-        android:contentDescription="@string/yellow_star"
-        app:srcCompat="@android:drawable/btn_star_big_on" />
-
     <EditText
         android:id="@+id/nickname_edit"
         style="@style/NameStyle"
@@ -42,6 +34,14 @@
         android:fontFamily="@font/roboto"
         android:layout_height="wrap_content"
         android:text="@string/done" />
+
+    <ImageView
+        android:id="@+id/star_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:contentDescription="@string/yellow_star"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
 
     <TextView
         android:id="@+id/nickname_text"
