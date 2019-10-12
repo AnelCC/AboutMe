@@ -23,6 +23,8 @@ class MainActivity : AppCompatActivity() {
         //setContentView(R.layout.activity_main)
         binding = DataBindingUtil.setContentView(this,R.layout.activity_main)
 
+        //set the value of MyName variable declared at top
+        binding.myName = myName
         /*findViewById<Button>(R.id.done_button).setOnClickListener {
             addNickname(it)
         }*/
