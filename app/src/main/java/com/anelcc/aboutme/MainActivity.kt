@@ -44,7 +44,9 @@ class MainActivity : AppCompatActivity() {
         view.visibility = View.GONE
         nicknameTextView.visibility = View.VISIBLE*/
 
+        //set the value of MyName variable declared at top
         binding.apply {
+            myName?.nickname = nicknameEdit.text.toString()
             nicknameText.text = binding.nicknameEdit.text
             invalidateAll()
             nicknameEdit.visibility = View.GONE
